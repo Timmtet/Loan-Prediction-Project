@@ -22,4 +22,4 @@ The dataset was then normalized using MinMaxScaler to make it fit for modelling
 An oversampling technique was carried out on the target feature using SMOTE so as to deal with the problem of imbalanced dataset
 
 6. Modelling
-Two Machine Learning algorithms were used to train the model. The first algorithm is Catboost. The algorithm had an ROC curve score of 0.954 on the training set, while the second algorithm used was RandomForest with an ROC curve score of 0.9575 on the training set. The the RandomForest performed better and the prediction on the testing set was saved in Fianl Submission
+Two Machine Learning algorithms were used to train the model. The first algorithm is Catboost. The algorithm had an ROC curve score of 0.954 on the training set, while the second algorithm used was RandomForest with an ROC curve score of 0.9575 on the training set. The RandomForest performed better and the prediction on the testing set was saved in Fianl Submission
