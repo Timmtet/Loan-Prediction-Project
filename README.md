@@ -18,7 +18,7 @@ Feature engineering was also carried out to obtain features that will impact the
 4. Standardization:
 The dataset was then normalized using MinMaxScaler to make it fit for modelling
 
-5. Dealing with inbalanced data
+5. Dealing with imbalanced data
 An oversampling technique was carried out on the target feature using SMOTE so as to deal with the problem of imbalanced dataset
 
 6. Modelling
