@@ -7,7 +7,7 @@ In this project, a machine learning predictive model was built to help Home Cred
 
 The data preparation and modelling process are as follows: 
 1. Dealing with missing values:
-Out of the 122 columns available to work with, 67 columns contained missing values. A script was written to calculate the count of missing values per columns. Hence, columns with more than 100,000 missing vlaues (49 columns) were dropped. Missing values in other columns with mininmal amount of missing values was filled with the median.
+Out of the 122 columns available to work with, 67 columns contained missing values. A script was written to calculate the count of missing values per column. Hence, columns with more than 100,000 missing vlaues (49 columns) were dropped. Missing values in other columns with mininmal amount of missing values was filled with the median.
 
 2. Encoding:
 In the dataset there are a number of categorical features. These features were encoded into a useable format using LabelEcncoder
