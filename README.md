@@ -10,7 +10,7 @@ The data preparation and modelling process are as follows:
 Out of the 122 columns available to work with, 67 columns contained missing values. A script was written to calculate the count of missing values per column. Hence, columns with more than 100,000 missing vlaues (49 columns) were dropped. Missing values in other columns with mininmal amount of missing values were filled with the median.
 
 2. Encoding:
-In the dataset there are a number of categorical features. These features were encoded into a useable format using LabelEcncoder
+In the dataset there are a number of categorical features. These features were encoded into a useable format using LabelEcncoder.
 
 3. Feature Engineering:
 Feature engineering was also carried out to obtain features that will impact the model. Variance threshold was used to obtain features with zero variance (of which there was none). Pearson's correlation coefficent was then used to obtained correlated features, of which 9 of them were dropped.
