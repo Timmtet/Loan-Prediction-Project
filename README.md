@@ -16,7 +16,7 @@ In the dataset there are a number of categorical features. These features were e
 Feature engineering was also carried out to obtain features that will impact the model. Variance threshold was used to obtain features with zero variance (of which there was none). Pearson's correlation coefficent was then used to obtained correlated features, of which 9 of them were dropped.
 
 4. Standardization:
-The dataset was then normalized using MinMaxScaler to make it fit for modelling
+The dataset was then normalized using MinMaxScaler to make it fit for modelling.
 
 5. Dealing with imbalanced data
 An oversampling technique was carried out on the target feature using SMOTE so as to deal with the problem of imbalanced dataset
